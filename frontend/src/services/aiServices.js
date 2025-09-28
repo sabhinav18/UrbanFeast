@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:4000/api/ai";
+const API_URL = "https://urbanfeast-backend.onrender.com/api/ai";
 
 // Chatbot
 export const sendMessageToChatbot = async (message, sessionId) => {
