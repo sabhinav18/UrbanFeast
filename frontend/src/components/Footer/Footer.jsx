@@ -1,13 +1,12 @@
-import React from "react"
 import { assets } from "../../assets/assets"
 
 const Footer = () => {
   return (
-    <div className="text-white flex bg-[#323232] flex-col items-center gap-5 pt-[50px] px-[8vw] py-5  mt-[100px]">
-        <div className="w-[100%] grid grid-cols-[2fr_1fr_1fr] gap-20">
+    <div id="footer" className="text-white flex bg-[#323232] flex-col items-center gap-5 pt-[50px] px-[8vw] py-5  mt-[100px]">
+        <div className="w-[100%] grid grid-cols-[2fr_1fr_1fr] gap-20 max-[750px]:flex max-[750px]:flex-col max-[750px]:gap-9">
             <div className="flex flex-col items-start gap-5">
                 <img className="w-[150px] -mt-[30px]" src={assets.logo} alt="" />
-                <p className="-mt-[50px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione id quasi temporibus suscipit amet, quo beatae eum, rem reiciendis molestiae quae minus vero eaque iste distinctio reprehenderit ipsam ut inventore.</p>
+                <p className="-mt-[50px]">UrbanFeast brings your favorite meals right to your doorstep. From local delights to international flavors, we deliver fresh, delicious food fast – making every mealtime a delight!</p>
                 <div className="flex gap-2.5 w-[40px]">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
